@@ -1,0 +1,1 @@
+ALTER TABLE `user` ADD `is_active` BOOLEAN NOT NULL DEFAULT TRUE AFTER `zahlung`;

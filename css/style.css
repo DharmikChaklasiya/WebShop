@@ -1,0 +1,247 @@
+/*----------------------------------------------------------------------------------------------
+WT2 BIF SS2018 Latosińska - Leithner
+    ____             _          ___        _____             __       _  __
+   / __ )____ ______(_)___ _   ( o )      / ___/__  ______  / /_____ | |/ /
+  / __  / __ `/ ___/ / __ `/  / __ \/|    \__ \/ / / / __ \/ __/ __ `|   / 
+ / /_/ / /_/ (__  / / /_/ /  / /_/  <    ___/ / /_/ / / / / /_/ /_/ /   |  
+/_____/\__,_/____/_/\__,_/   \____/\/   /____/\__, /_/ /_/\__/\__,_/_/|_|  
+                                             /____/                        
+
+date: 08.06.2018
+
+----------------------------------------------------------------------------------------------*/
+
+* {
+	padding:0;
+	margin:0;
+}
+html {
+	box-sizing:border-box;
+}
+*,::before,::after {
+	box-sizing:inherit;
+}
+#root {
+	align-content: center;
+}
+header {
+	height: 200px;
+	background-color: #dadada;
+	text-align: center;
+}
+header img {
+	height: 180px;
+	float: left;
+	margin: 10px;
+	border: none;
+}
+.alert {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+#login {
+	position: fixed;
+	top: 1%;
+	right: 14%;
+	z-index: 1;
+	background-color: #30708e94;
+	border-radius: 0.4em;
+	border: 1px solid #222;
+	padding: 5px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	min-width: 294px;
+}
+#login input {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+#login p {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+	padding-top: 9px;
+	text-indent: 10px;
+    font-weight: 700;
+}
+#content {
+	padding-top: 10px;
+	/*height: 200px;*/
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#feed {
+	text-align: left;
+	margin-left: 50px;
+}
+#dropbox {
+	/*width: 200px;*/
+	height: 60px;
+	padding: 20px;
+	border: 1px dotted #888;
+}
+/*#navi {
+	min-height: 30px;
+}*/
+footer {
+	/*height: 20px;
+	border-top-color: #222;
+	border-top-style: solid;
+	border-width: 0.1em;*/
+	text-align: center;
+}
+h1 {
+	font-size: 1.2em;
+	margin-top: 15px;
+}
+.selection {
+	background-color: #FFFFFF;	
+	border-right-color: #222;
+	border-right-style: solid;
+	border-width: 0.1em;
+}
+.selection a {
+	color: #222!important;
+}
+
+.navbar,
+.navbar-right {
+	border-radius: 0;
+	margin: 0;
+}
+
+@media (max-width: 767px){
+	.navbar-header{
+		width: 100%;
+	}
+}
+.container > .navbar-header {
+	margin: 0px;
+}
+.navbar-header a {
+	color:#FFFFFF;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #FFFFFF;
+}
+#navlist {
+	position: absolute;
+	right: 10px;
+	top: -1px;
+}
+section {
+	padding-top: 20px;
+	/*border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #999;*/
+}
+#upload {
+	text-align: left;
+}
+.upload {
+	padding: 0 8px;
+}
+img {
+	margin: 5px;
+	/*border: 1px dotted #888;*/
+	padding: 10px;
+	border: none;
+}
+.paymentImg {	
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	max-height: 40px;
+}
+#result img {
+	height: 150px;
+	width: 200px;
+	float: left;
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+#userData img
+{
+	height: 100px;
+}
+#result a, a:hover, a:focus
+{
+	text-decoration: none;
+	color: black;
+}
+/*modal*/
+.modal-backdrop
+{
+	z-index: 0;
+}
+#registrationForm td,
+#updateDataForm td
+{
+	text-align: right;
+	padding-right: 5px;
+}
+#registrationForm table
+{
+	width: 100%;
+}
+.pointer
+{
+	cursor: pointer;
+}
+#updateDataForm table
+{
+	float: center;
+	max-width: 100%;
+	margin: 0 auto;
+}
+#voucher table,
+#user table,
+#inCart table,
+#orders table
+{
+	float: center;
+	margin: 0 auto;
+	border-spacing: 15px;
+	border-collapse: separate;	
+}
+#voucher table th,
+#user table th,
+#inCart table th
+{
+	text-align: center;
+}
+#submitUpdateData
+{
+	margin: 10px;
+}
+#voucher .form-control
+{
+	display: inline;
+}
+.hide_prods p
+{
+	margin: 0;
+}
+.product-info {
+	padding: 15px 0 0 10px;
+	text-align: left;
+	list-style-type: none;
+}
+.text-info
+{
+	color: #333;
+}
+.quantity
+{
+	background-color: #FFF;
+	color: #333;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+#inCart
+{
+	text-align: center;
+}

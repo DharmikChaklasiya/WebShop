@@ -1,0 +1,19 @@
+<nav>
+	<anonym>
+		<section>Home</section>
+		<section>Products</section>
+		<section img_id="scart">Cart</section>
+	</anonym>
+	<user>
+		<section>Home</section>
+		<section>Account</section>
+		<section>Products</section>
+		<section img_id="scart">Cart</section>
+	</user>
+	<admin>
+		<section>Home</section>
+		<section>Products</section>
+		<section>Users</section>
+		<section>Vouchers</section>
+	</admin>
+</nav>
